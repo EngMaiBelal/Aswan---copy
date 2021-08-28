@@ -1,0 +1,121 @@
+
+/* .control_background_image{background-image:url("file:///E:/برمجه/projects/lab1(html,css)/assets/images/معبد%20حتشبسوت.jpg");
+              margin:20px;padding:20px;}
+                */
+                
+.control_background_color{background-color: aliceblue;}
+
+*{margin:0;padding:0}
+
+/* start header */
+.nav_bar ul{padding-top:30px;}
+.nav_bar ul,li{list-style-type: none;
+                display:inline-block;}
+.nav_bar li{margin-left:50px;}
+.nav_bar a{text-decoration: none;
+                color:rgb(82, 40, 40);
+                font-weight:bold;
+                font-family:cursive;
+                text-align: right;}
+.nav_bar a:hover{color:rgb(170, 150, 58);}
+
+.info{padding-top:80px;margin-left:40px;}
+.header .info h1{font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                color: rgb(47, 45, 45);}
+ 
+.header .info a{text-decoration: none;
+                letter-spacing: 5px;
+                border: 1px solid #484750;
+                margin-left:60px;
+                /* margin-top:100px; */
+                padding:10px ;
+                color:#1082f5;
+                } 
+.header .info a:hover{color:white;background-color:rgb(170, 150, 58);}          
+.header .info h1 span{color:#c8d6ea}
+.header .info p{font-size:15px;
+                padding-left: 20px;
+                margin-top:50px; 
+                color:#8b949c;
+                margin-bottom:50px;
+            }
+
+.header .format_width{width:45% ;
+                display:inline-block;}
+.header .header_image1{float:right;
+                width:45%;}
+.header .header_image1 img{width:100%}
+.clear_fix{clear:both}
+
+/* end header */
+
+
+
+
+/* start festival */
+.festival{position:relative;
+                padding-top: 50px;}
+                /* border: 1px solid red;} */
+.festival .card1 img,.festival .card2 img,.festival .card3 img{width:100%}
+.festival .card1,.card2 ,.card3 {float:left;
+                width:30%}
+                /* border:1px solid red; */
+                
+.card1{         margin-left: 40px;
+                padding-top:80px;}
+.card2{
+                margin-left:20px;
+                margin-right:20px;
+                padding-top:150px;}
+.card3{
+                margin-right:40px;
+                padding-top:250px;
+                }
+
+.card1 p,.card2 p,.card3 p{padding-left: 20px;
+                padding-right: 20px;
+                color:grey;}
+.festival_info{width:300px;
+                text-align: right;
+                position: absolute;
+                top:60px;
+                right:50px;}
+
+.festival_info h3{font-weight: bold;font-size: 20px;}
+.festival_info h3 span{color:#c8d6ea}
+.card1 span,.card2 span,.card3 span{display:block;
+                margin-top:30px;
+                margin-bottom: 20px;
+                color:#1082f5c9;
+                font-weight:bold;
+                }
+ .festival_info p{color: #032140;}
+/* .festivel{height:700px;} */
+/* end festivel */
+
+
+
+/*start footer*/
+.footer{padding-top: 100px;}
+/* .footer{border:1px solid red} */
+.footer .header2 h3,.header2 p{text-align: center; }
+.header2 p{color:grey;
+                margin-bottom:40px}
+.footer .header2 h3{margin-bottom:20px;
+                font-weight:bold;}
+.footer .header2 h3 span{
+                color:#c8d6ea;}
+.header2{padding-top:100px}
+.image_and_p {position:relative;} 
+.footer .format_image2 img {width:700px;width:70%}
+.footer .format_text2 {position: absolute;
+                top:100px;
+                right:50px;
+                background-color:rgb(241, 244, 247);
+                width:600px}
+
+.footer .format_text2 p {padding-left: 60px;margin-top:50px;color:grey;padding-bottom: 40px;}
+
+.footer .format_text2 h3{padding-left:40px;padding-top:40px;font-size:20px;font-weight:bold;color:#1082f5c9;}
+/* end footer */
